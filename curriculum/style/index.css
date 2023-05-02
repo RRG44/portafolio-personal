@@ -8,15 +8,29 @@ html{
   position: relative;
 }
 
+.jumbo p{
+  font-size: 1.5em;
+}
+
 .img-filter{
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(1, 1, 1, 0.3);
+  background-color: rgba(1, 1, 1, 0.35);
 }
 
+.main-body{
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+/*Responsive image and text depending on the screen size*/
 @media (max-width: 768px){
   .jumbo{
     min-height: 65vh;
+  }
+
+  .jumbo p{
+    font-size: 1em;
   }
 }
