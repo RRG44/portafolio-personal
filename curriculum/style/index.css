@@ -42,3 +42,16 @@ html{
 }
 
 /*Jumbotron responsive size*/
+
+/*Prevents the section's titles from being cover by de fixed navbar when clicked*/
+
+.main-body h2{
+  position: relative;
+}
+
+.main-body h2 span.anchor{
+  position:absolute;
+  top:-56px;
+}
+
+/*Prevents the section's titles from being cover by de fixed navbar when clicked*/
