@@ -20,6 +20,7 @@ html{
 
 /*Jumbotron filter*/
 
+
 /*Jumbotron responsive size*/
 
 .jumbo p{
@@ -43,6 +44,7 @@ html{
 
 /*Jumbotron responsive size*/
 
+
 /*Prevents the section's titles from being cover by de fixed navbar when clicked*/
 
 .main-body h2{
@@ -51,14 +53,14 @@ html{
 
 .main-body h2 span.anchor{
   position:absolute;
-  top:-56px;
+  top:-70px;
 }
 
 /*Prevents the section's titles from being cover by de fixed navbar when clicked*/
 
 /*Custom border picture*/
 .img-me{
-  border: 2px solid #55555522;
+  border: 0.25rem solid #55555522;
   width: 90%;
 }
 /*Custom border picture*/
