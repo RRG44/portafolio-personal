@@ -55,3 +55,10 @@ html{
 }
 
 /*Prevents the section's titles from being cover by de fixed navbar when clicked*/
+
+/*Custom border picture*/
+.img-me{
+  border: 2px solid #55555522;
+  width: 90%;
+}
+/*Custom border picture*/
