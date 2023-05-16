@@ -64,3 +64,37 @@ html{
   width: 90%;
 }
 /*Custom border picture*/
+
+
+/*Language texte style*/
+
+.language-level{
+  font-weight: bold;
+}
+
+.mx-flag{
+  color:#095f44;
+}
+
+.us-flag{
+  color: #cf2335;
+}
+
+.it-flag{
+  color: #088042;
+}
+
+.fr-flag{
+  color: #0a4f8f;
+}
+
+/*Language texte style*/
+
+/*Style of tech boxes*/
+
+.other-tech{
+  /* background-color: #55555511; */
+  /* border: 2px solid #55555511; */
+}
+
+/*Style of tech boxes*/
