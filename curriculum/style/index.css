@@ -15,7 +15,7 @@ html{
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(1, 1, 1, 0.6);
+  background-color: rgba(1, 1, 1, 0.7);
 }
 
 /*Jumbotron filter*/
@@ -130,3 +130,23 @@ html{
   transform: translateY(-5px);
 }
 /*Custom items*/
+
+
+/*Fade animation*/
+
+@keyframes fadding { 
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
+body{
+  animation: fadding 1.5s 1;
+}
+
+/*Fade animation*/
