@@ -15,7 +15,7 @@ html{
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(1, 1, 1, 0.35);
+  background-color: rgba(1, 1, 1, 0.45);
 }
 
 /*Jumbotron filter*/
@@ -58,12 +58,12 @@ html{
 
 /*Prevents the section's titles from being cover by de fixed navbar when clicked*/
 
-/*Custom border picture*/
+/*Custom picture*/
 .img-me{
   border: 0.25rem solid #55555522;
   width: 90%;
 }
-/*Custom border picture*/
+/*Custom picture*/
 
 
 /*Language texte style*/
@@ -93,6 +93,7 @@ html{
 /*WhatsApp button*/
 .btn-wts{
   border: 1px solid #103928;
+  background-color: none;
 }
 /*WhatsApp button*/
 
