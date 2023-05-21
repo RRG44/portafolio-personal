@@ -1,6 +1,6 @@
 var i = 0;
 var txt = 'Gerardo Ramírez';
-var speed = 70;
+var speed = 75;
 
 window.onload = function typeWriter() {
   if (i < txt.length) {
