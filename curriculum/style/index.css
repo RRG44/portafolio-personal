@@ -15,7 +15,7 @@ html{
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: rgba(1, 1, 1, 0.45);
+  background-color: rgba(1, 1, 1, 0.6);
 }
 
 /*Jumbotron filter*/
@@ -60,7 +60,7 @@ html{
 
 /*Custom picture*/
 .img-me{
-  border: 0.25rem solid #55555522;
+  border: 2px solid #55555522;
   width: 90%;
 }
 /*Custom picture*/
@@ -90,15 +90,18 @@ html{
 
 /*Language texte style*/
 
+
 /*WhatsApp button*/
 .btn-wts{
   border-color: #075E54;
   background-color: white;
   color: #075E54;
+  transition: 0.4s;
 }
 
 .btn-wts a{
   color: #075E54;
+  transition: 0.4s;
 }
 
 .btn-wts:hover{
@@ -112,6 +115,18 @@ html{
 }
 /*WhatsApp button*/
 
+
+/*Custom items*/
 .info-a{
   text-decoration: none;
 }
+
+.social-icon{
+  display: inline-block;
+  transition: transform 0.3s ease-in-out;
+}
+
+.social-icon:hover{
+  transform: translateY(-5px);
+}
+/*Custom items*/
