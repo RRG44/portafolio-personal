@@ -92,8 +92,26 @@ html{
 
 /*WhatsApp button*/
 .btn-wts{
-  border: 1px solid #103928;
-  background-color: none;
+  border-color: #075E54;
+  background-color: white;
+  color: #075E54;
+}
+
+.btn-wts a{
+  color: #075E54;
+}
+
+.btn-wts:hover{
+  border-color: white;
+  background-color: #075E54;
+  color: white;
+}
+
+.btn-wts:hover a{
+  color: white;
 }
 /*WhatsApp button*/
 
+.info-a{
+  text-decoration: none;
+}
